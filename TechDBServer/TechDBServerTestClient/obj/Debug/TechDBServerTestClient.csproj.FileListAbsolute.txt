@@ -23,3 +23,16 @@ E:\CWProject\TechDBServer\TechDBServerTestClient\bin\Debug\Microsoft.WindowsAzur
 E:\CWProject\TechDBServer\TechDBServerTestClient\obj\Debug\TechDBServerTestClient.csprojResolveAssemblyReference.cache
 E:\CWProject\TechDBServer\TechDBServerTestClient\obj\Debug\TechDBServerTestClient.exe
 E:\CWProject\TechDBServer\TechDBServerTestClient\obj\Debug\TechDBServerTestClient.pdb
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\techdb.mdb
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\TechDBServerTestClient.exe.config
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\TechDBServerTestClient.exe
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\TechDBServerTestClient.pdb
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\Microsoft.ServiceBus.dll
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\Microsoft.WindowsAzure.Configuration.dll
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\TechDBServer.dll
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\TechDBServer.pdb
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\Microsoft.ServiceBus.xml
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\obj\Debug\TechDBServerTestClient.csprojResolveAssemblyReference.cache
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\obj\Debug\TechDBServerTestClient.exe
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerTestClient\obj\Debug\TechDBServerTestClient.pdb

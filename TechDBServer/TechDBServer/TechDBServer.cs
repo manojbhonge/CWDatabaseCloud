@@ -69,50 +69,78 @@ namespace TechDBServer
                     query = "select * from  MILLC where [Mill Tool Type] = 2";
                     break;
                 case "Ball End Taper":
-                    
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "Bore":
+                    query = "select * from  BORES";
                     break;
                 case "Center Drill":
+                    query = "select * from  CenterDrill";
                     break;
                 case "Corner Round":
                     query = "select * from  MILLC where [Mill Tool Type] = 4";
                     break;
                 case "Countersink":
+                    query = "select * from  CounterSink";
                     break;
                 case "Dovetail":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "Drill":
+                    query = "select * from  DRILLS";
                     break;
                 case "Face Mill":
+                    query = "select * from  FaceMillTool";
                     break;
                 case "Flat End Mill":
                     query = "select * from  MILLC where [Mill Tool Type] = 1";
                     break;
                 case "Flat End Taper":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "Hog Nose End Mill":
                     query = "select * from  MILLC where [Mill Tool Type] = 3";
                     break;
                 case "Hog Nose Taper":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 //case "Insert-Holder":
                 //    break;
                 case "Keyway":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "Lollipop":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "Multi-point Thread Mill":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "Ream":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "Single-point Thread Mill":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "Tap - Cutting":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "Tap - Rolling":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 case "User-Defined":
+                    //default
+                    query = "select * from  BORES";
                     break;
                 default:
                     break;

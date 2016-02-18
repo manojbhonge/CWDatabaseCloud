@@ -1,0 +1,6 @@
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\techdb.mdb
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\TechDBServer.dll.config
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\TechDBServer.dll
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\TechDBServer.pdb
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\obj\Release\TechDBServer.dll
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\obj\Release\TechDBServer.pdb

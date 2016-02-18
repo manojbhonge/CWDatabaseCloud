@@ -9,3 +9,9 @@ E:\CWProject\TechDBServer\TechDBServer\bin\Debug\TechDBServer.dll
 E:\CWProject\TechDBServer\TechDBServer\bin\Debug\TechDBServer.pdb
 E:\CWProject\TechDBServer\TechDBServer\obj\Debug\TechDBServer.dll
 E:\CWProject\TechDBServer\TechDBServer\obj\Debug\TechDBServer.pdb
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Debug\techdb.mdb
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Debug\TechDBServer.dll.config
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Debug\TechDBServer.dll
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Debug\TechDBServer.pdb
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\obj\Debug\TechDBServer.dll
+E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\obj\Debug\TechDBServer.pdb
