@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="cwtechdb" generation="1" functional="0" release="0" Id="29ee7cd9-8be0-45c0-807a-ce0dfc1869f5" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
+<serviceModel xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="cwtechdb" generation="1" functional="0" release="0" Id="7a94716c-4f01-4add-b8c8-d41342471bcb" dslVersion="1.2.0.0" xmlns="http://schemas.microsoft.com/dsltools/RDSM">
   <groups>
     <group name="cwtechdbGroup" generation="1" functional="0" release="0">
       <componentports>
@@ -70,9 +70,9 @@
     </group>
   </groups>
   <implements>
-    <implementation Id="25d45f18-c2a1-41b9-97c0-3dbc3daf18bc" ref="Microsoft.RedDog.Contract\ServiceContract\cwtechdbContract@ServiceDefinition">
+    <implementation Id="deb189d0-1656-4396-94bd-43aea37d8d08" ref="Microsoft.RedDog.Contract\ServiceContract\cwtechdbContract@ServiceDefinition">
       <interfacereferences>
-        <interfaceReference Id="f6cc6581-8315-4ab6-b153-7f17f5048c26" ref="Microsoft.RedDog.Contract\Interface\cwtechdbWebRole:Endpoint1@ServiceDefinition">
+        <interfaceReference Id="fa213889-db0f-4039-9360-0654eff0db07" ref="Microsoft.RedDog.Contract\Interface\cwtechdbWebRole:Endpoint1@ServiceDefinition">
           <inPort>
             <inPortMoniker name="/cwtechdb/cwtechdbGroup/cwtechdbWebRole:Endpoint1" />
           </inPort>

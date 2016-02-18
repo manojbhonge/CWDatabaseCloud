@@ -5,31 +5,28 @@
     <div class="row">
         <div class="" style="border: 1px solid #808080; margin-top: 20px; width: 200px; border-radius: 3px">
             <div style="border-bottom: 1px solid #808080; padding: 5px; background: #14739d; color: #fff;">Tools</div>
-            <ul class="tools">
-                <li>Tool 1</li>
-                <li>Tool 2</li>
-            </ul>
+            <ul id="toolTree" class="tools"></ul>
         </div>
-        <div class="" style="position: absolute; left: 30%; top: 20%; border: 1px solid #999; width: 300px; height: 342px; border-radius: 3px; overflow: hidden">
+        <div class="" style="position: absolute; left: 30%; top: 20%; border: 1px solid #999; width: 300px; max-height: 342px; border-radius: 3px">
             <div style="border-bottom: 1px solid #999; padding: 5px; background: #14739d; color: #fff;">Add Tools</div>
-            <div style="position: relative; over">
+            <div style="position: relative;">
                 <div style="padding: 10px">
                     <!--select tool type-->
-                    
-                    <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
-                    
-                        <asp:Button Text="Get Tool" id="gm_gettooltypes" class="btn btn-primary btn-sm" runat="server" Style="float: right" OnClick="gm_gettooltypes_Click" />
+                    <asp:Button Text="Get tool types" ID="gm_gettooltypes" class="btn btn-primary btn-sm" runat="server" Style="" OnClick="gm_gettooltypes_Click" />
+
+                    <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True" Style="margin-top: 10px"></asp:DropDownList>
+
                 </div>
                 <!--select tools -->
-                <div style="border-top: 1px solid #ccc; padding: 10px; overflow-y: auto">
+                <div style="border-top: 1px solid #ccc; padding: 10px; overflow: auto; max-height: 160px">
                     <%--<ul class="toolList">
                         <li>
-                            <input type="checkbox" id="" />
+                            <input type="checkbox" id="" name="toolList" value="Tool 2" />
                             <span>Tool 1</span></li>
                         <li>
                             <label>
-                                <input type="checkbox" id="" />
-                                <span>Tool 1</span>
+                                <input type="checkbox" id="" name="toolList" value="Tool 2" />
+                                <span>Tool 2</span>
                             </label>
                         </li>
                         <li>
@@ -67,7 +64,7 @@
 
                 </div>
                 <div style="width: 100%; padding: 10px; margin-top: 10px; clear: both; border-top: 1px solid #ccc">
-                    <asp:Button Text="Add Tool" class="btn btn-primary btn-sm" runat="server" Style="float: right" />
+                    <input id="btnAddTools" type="button"  class="btn btn-primary btn-sm" value="Add Tool"  />
                 </div>
             </div>
             <%--<asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
@@ -75,4 +72,36 @@
         </div>
     </div>
 
+    <script type="text/javascript">
+        $(function () {
+        
+            $("#btnAddTools").click(function () {
+
+                var tools = [];
+
+                $("#MainContent_CheckBoxList1").find("input:checked").each(function (i, val) {
+                    tools.push($(this).val());
+                });
+
+                for (var i = 0; i < tools.length; i++) {
+                    $('<li />', { html: tools[i] }).appendTo('#toolTree');
+                }
+                
+                //var toolSelected = $('input[name=toolList]:checked');
+                //var tools = [];
+
+                //toolSelected.each(function () {
+                //    tools.push($(this).val());
+                //})
+                
+                ////for (var i = 0; i < tools.length; i++) {
+                ////    $('<li />', { html: tools[i] }).appendTo('#toolTree');
+                ////}
+
+            })            
+        })
+
+    </script>
+
 </asp:Content>
+

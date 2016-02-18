@@ -26,14 +26,15 @@ input[type="tel"],
 input[type="select"] {
     max-width: 280px;
 }
-a, a:active, a:visited{
-    text-decoration:none;
+
+a, a:active, a:visited {
+    text-decoration: none;
 }
 
-ul, ul li{
-    list-style-type:none;
-    padding:0;
-    margin:0;
+ul, ul li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -41,34 +42,44 @@ ul, ul li{
     .jumbotron {
         margin-top: 20px;
     }
+
     .body-content {
         padding: 0;
     }
 }
 
-select, input[type="text"]{
-    width:90%;
-    padding:3px;
+select, input[type="text"] {
+    width: 90%;
+    padding: 3px;
 }
 
-.tools{
-    
+.tools {
 }
-.tools li{    
-    border-bottom:1px solid #ccc;
-    padding:4px;
-    font-size:12px;
-}
-.tools li:hover{    
-    background:#ccc;
-    cursor:pointer;
-}
+
+    .tools li {
+        border-bottom: 1px solid #ccc;
+        padding: 4px;
+        font-size: 12px;
+    }
+
+        .tools li:hover {
+            background: #ccc;
+            cursor: pointer;
+        }
+
 .toolList {
 }
 
-.toolList li{
-    cursor:pointer;    
-}
-.toolList li:hover{
-background:#ccc;    
+    .toolList li {
+        cursor: pointer;
+    }
+
+        .toolList li:hover {
+            background: #ccc;
+        }
+
+#MainContent_CheckBoxList1 label {
+    margin-left: 5px !important;
+    position: relative!important;
+    top: -2px;
 }
