@@ -200,3 +200,7 @@ E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\bin\zh-H
 E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\bin\zh-Hant\Microsoft.Data.OData.resources.dll
 E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
 E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\bin\zh-Hant\System.Spatial.resources.dll
+E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\bin\TechDBServer.dll
+E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\bin\Microsoft.ServiceBus.dll
+E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\bin\Microsoft.ServiceBus.xml
+E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\bin\TechDBServer.pdb

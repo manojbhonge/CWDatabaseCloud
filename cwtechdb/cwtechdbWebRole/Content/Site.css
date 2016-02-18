@@ -32,6 +32,8 @@ a, a:active, a:visited{
 
 ul, ul li{
     list-style-type:none;
+    padding:0;
+    margin:0;
 }
 
 /* Responsive: Portrait tablets and up */
@@ -44,6 +46,29 @@ ul, ul li{
     }
 }
 
-.tools{
+select, input[type="text"]{
+    width:90%;
+    padding:3px;
+}
 
+.tools{
+    
+}
+.tools li{    
+    border-bottom:1px solid #ccc;
+    padding:4px;
+    font-size:12px;
+}
+.tools li:hover{    
+    background:#ccc;
+    cursor:pointer;
+}
+.toolList {
+}
+
+.toolList li{
+    cursor:pointer;    
+}
+.toolList li:hover{
+background:#ccc;    
 }

@@ -202,3 +202,7 @@ E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\bin\zh-Hant\System.Spatial.
 E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\obj\Debug\cwtechdbWebRole.csprojResolveAssemblyReference.cache
 E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\obj\Debug\cwtechdbWebRole.dll
 E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\obj\Debug\cwtechdbWebRole.pdb
+E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\bin\Microsoft.ServiceBus.dll
+E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\bin\TechDBServer.dll
+E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\bin\Microsoft.ServiceBus.xml
+E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\bin\TechDBServer.pdb
