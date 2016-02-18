@@ -1,0 +1,11 @@
+c:\Demos\TechDBServer\TechDBServer\bin\Debug\TechDBServer.dll.config
+c:\Demos\TechDBServer\TechDBServer\bin\Debug\TechDBServer.dll
+c:\Demos\TechDBServer\TechDBServer\bin\Debug\TechDBServer.pdb
+c:\Demos\TechDBServer\TechDBServer\obj\Debug\TechDBServer.dll
+c:\Demos\TechDBServer\TechDBServer\obj\Debug\TechDBServer.pdb
+E:\CWProject\TechDBServer\TechDBServer\bin\Debug\techdb.mdb
+E:\CWProject\TechDBServer\TechDBServer\bin\Debug\TechDBServer.dll.config
+E:\CWProject\TechDBServer\TechDBServer\bin\Debug\TechDBServer.dll
+E:\CWProject\TechDBServer\TechDBServer\bin\Debug\TechDBServer.pdb
+E:\CWProject\TechDBServer\TechDBServer\obj\Debug\TechDBServer.dll
+E:\CWProject\TechDBServer\TechDBServer\obj\Debug\TechDBServer.pdb

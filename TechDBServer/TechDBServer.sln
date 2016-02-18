@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechDBServer", "TechDBServer\TechDBServer.csproj", "{C38668E1-0EA2-4FC1-9B0C-B2688803BC26}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechDBServerHost", "TechDBServerHost\TechDBServerHost.csproj", "{64B0D2DB-95B4-4279-90D5-215C2FFB6F85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechDBServerTestClient", "TechDBServerTestClient\TechDBServerTestClient.csproj", "{6EA96129-C718-477E-BFEA-0214951C0499}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C38668E1-0EA2-4FC1-9B0C-B2688803BC26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38668E1-0EA2-4FC1-9B0C-B2688803BC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38668E1-0EA2-4FC1-9B0C-B2688803BC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38668E1-0EA2-4FC1-9B0C-B2688803BC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64B0D2DB-95B4-4279-90D5-215C2FFB6F85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64B0D2DB-95B4-4279-90D5-215C2FFB6F85}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64B0D2DB-95B4-4279-90D5-215C2FFB6F85}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64B0D2DB-95B4-4279-90D5-215C2FFB6F85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EA96129-C718-477E-BFEA-0214951C0499}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EA96129-C718-477E-BFEA-0214951C0499}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EA96129-C718-477E-BFEA-0214951C0499}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EA96129-C718-477E-BFEA-0214951C0499}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
