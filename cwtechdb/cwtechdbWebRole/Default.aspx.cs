@@ -16,8 +16,12 @@ namespace cwtechdbWebRole
         {
             if (!IsPostBack)
             {
-                
+                var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
 
+                if(!authenticationManager.User.Identity.IsAuthenticated)
+                {
+                    Response.Redirect("~/Account/Login.aspx");
+                }
             }
         }
 
@@ -39,17 +43,8 @@ namespace cwtechdbWebRole
                     //Response.Write(item.ToolName);
                 }
 
+                
 
-                outputList = ch.GetTools(DropDownList1.Text);
-                CheckBoxList1.Items.Clear();
-                foreach (var item in outputList)
-                {
-                    ListItem myItem = new ListItem();
-                    myItem.Text = item.ToolName;
-                    myItem.Value = item.ToolName;
-
-                    CheckBoxList1.Items.Add(myItem);
-                }
             }
         }
 
@@ -67,13 +62,7 @@ namespace cwtechdbWebRole
                 CheckBoxList1.Items.Clear();
                 foreach (var item in outputList)
                 {
-                    ListItem myItem = new ListItem();
-                    myItem.Text = item.ToolName;
-                    myItem.Value = item.ToolName;                    
-
-                    CheckBoxList1.Items.Add(myItem);
-
-                    //CheckBoxList1.Items.Add(item.ToolName);
+                    CheckBoxList1.Items.Add(item.ToolName);
                     //Response.Write(item.ToolName);
                 }
 
