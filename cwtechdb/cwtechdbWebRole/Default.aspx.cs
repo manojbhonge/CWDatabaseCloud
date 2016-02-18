@@ -16,8 +16,12 @@ namespace cwtechdbWebRole
         {
             if (!IsPostBack)
             {
-                
+                var authenticationManager = HttpContext.Current.GetOwinContext().Authentication;
 
+                if(!authenticationManager.User.Identity.IsAuthenticated)
+                {
+                    Response.Redirect("~/Account/Login.aspx");
+                }
             }
         }
 
