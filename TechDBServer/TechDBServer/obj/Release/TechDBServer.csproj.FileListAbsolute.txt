@@ -4,3 +4,10 @@ E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\TechDBServer.
 E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\TechDBServer.pdb
 E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\obj\Release\TechDBServer.dll
 E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServer\obj\Release\TechDBServer.pdb
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\techdb.mdb
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\TechDBServer.dll.config
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\TechDBServer.dll
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServer\bin\Release\TechDBServer.pdb
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServer\obj\Release\TechDBServer.csprojResolveAssemblyReference.cache
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServer\obj\Release\TechDBServer.dll
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServer\obj\Release\TechDBServer.pdb

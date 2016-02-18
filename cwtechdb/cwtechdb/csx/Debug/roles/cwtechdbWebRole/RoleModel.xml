@@ -24,14 +24,14 @@
     <Property name="SetConfiguration" value="Configuration=Debug" />
     <Property name="SetPlatform" value="Platform=AnyCPU" />
     <Property name="RoleTargetFramework" value="v4.5" />
-    <Property name="OutputDir" value="E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\" />
+    <Property name="OutputDir" value="E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdb\obj\Debug\cwtechdbWebRole\" />
     <Property name="EntryPoint" value="cwtechdbWebRole.dll" />
-    <Property name="SourceDir" value="E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\" />
-    <Property name="SitePhysicalPath" value="E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\" />
+    <Property name="SourceDir" value="E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\" />
+    <Property name="SitePhysicalPath" value="E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\" />
     <Property name="TargetRuntimeVersion" value="v4.0" />
   </Properties>
   <Sites>
-    <Site name="Web" physicalDirectory="E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\">
+    <Site name="Web" physicalDirectory="E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdbWebRole\">
       <Bindings>
         <Binding name="Endpoint1" endpointName="Endpoint1" />
       </Bindings>

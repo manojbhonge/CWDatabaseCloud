@@ -11,3 +11,16 @@ E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\Microsoft
 E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerHost\obj\Release\TechDBServerHost.csprojResolveAssemblyReference.cache
 E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerHost\obj\Release\TechDBServerHost.exe
 E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerHost\obj\Release\TechDBServerHost.pdb
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\TechDBServerHost.exe.config
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\obj\Release\TechDBServerHost.exe
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\obj\Release\TechDBServerHost.pdb
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\techdb.mdb
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\TechDBServerHost.exe
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\TechDBServerHost.pdb
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\Microsoft.ServiceBus.dll
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\Microsoft.WindowsAzure.Configuration.dll
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\TechDBServer.dll
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\TechDBServer.pdb
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\Microsoft.ServiceBus.xml
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Release\Microsoft.WindowsAzure.Configuration.xml
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\obj\Release\TechDBServerHost.csprojResolveAssemblyReference.cache

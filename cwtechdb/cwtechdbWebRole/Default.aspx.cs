@@ -16,30 +16,54 @@ namespace cwtechdbWebRole
         {
             if (!IsPostBack)
             {
-                var cf = new ChannelFactory<ITechDBServerChannel>(
+                
+
+            }
+        }
+
+        protected void gm_gettooltypes_Click(object sender, EventArgs e)
+        {
+            var cf = new ChannelFactory<ITechDBServerChannel>(
                         new NetTcpRelayBinding(),
                         new EndpointAddress(ServiceBusEnvironment.CreateServiceUri("sb", "sbcwtechdb", "TechDBService")));
 
-                cf.Endpoint.Behaviors.Add(new TransportClientEndpointBehavior { TokenProvider = TokenProvider.CreateSharedAccessSignatureTokenProvider("RootManageSharedAccessKey", "+6swweotZ41Shsgbcoz5faezZS4umVHdHyIC7sYzVzw=") });
+            cf.Endpoint.Behaviors.Add(new TransportClientEndpointBehavior { TokenProvider = TokenProvider.CreateSharedAccessSignatureTokenProvider("RootManageSharedAccessKey", "+6swweotZ41Shsgbcoz5faezZS4umVHdHyIC7sYzVzw=") });
 
-                using (var ch = cf.CreateChannel())
+            using (var ch = cf.CreateChannel())
+            {
+                List<ToolData> outputList = ch.GetToolTypes();
+                DropDownList1.Items.Clear();
+                foreach (var item in outputList)
                 {
-                    List<string> outputList = ch.GetToolTypes();
-                    foreach (var item in outputList)
-                    {
-                        Response.Write(item);
-                        //Console.WriteLine(item);
-                    }
-
-                    //Console.WriteLine("Get ball nose:");
-                    //List<string> outputList2 = ch.GetTools("Ball End Mill");
-                    //foreach (var item in outputList2)
-                    //{
-                    //    Console.WriteLine(item);
-                    //}
-
+                    DropDownList1.Items.Add(item.ToolName);
+                    //Response.Write(item.ToolName);
                 }
+
                 
+
+            }
+        }
+
+        protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var cf = new ChannelFactory<ITechDBServerChannel>(
+                        new NetTcpRelayBinding(),
+                        new EndpointAddress(ServiceBusEnvironment.CreateServiceUri("sb", "sbcwtechdb", "TechDBService")));
+
+            cf.Endpoint.Behaviors.Add(new TransportClientEndpointBehavior { TokenProvider = TokenProvider.CreateSharedAccessSignatureTokenProvider("RootManageSharedAccessKey", "+6swweotZ41Shsgbcoz5faezZS4umVHdHyIC7sYzVzw=") });
+
+            using (var ch = cf.CreateChannel())
+            {
+                List<ToolData> outputList = ch.GetTools(DropDownList1.Text);
+                CheckBoxList1.Items.Clear();
+                foreach (var item in outputList)
+                {
+                    CheckBoxList1.Items.Add(item.ToolName);
+                    //Response.Write(item.ToolName);
+                }
+
+
+
             }
         }
     }

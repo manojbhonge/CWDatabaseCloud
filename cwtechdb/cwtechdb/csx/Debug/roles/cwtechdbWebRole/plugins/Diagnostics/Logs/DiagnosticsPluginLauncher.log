@@ -1,15 +1,17 @@
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Emulator config file set to E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\csx\Debug\roles\cwtechdbWebRole\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] DiagnosticsStoreRootPath set to: C:\Users\training\AppData\Local\dftmp\Resources\f0e526b3-b0d8-4247-b37d-abf089674b80
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Loading config file: E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\csx\Debug\roles\cwtechdbWebRole\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Config file to read: E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\csx\Debug\roles\cwtechdbWebRole\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Checking VM Type
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Emulator config file set to E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\csx\Debug\roles\cwtechdbWebRole\approot\diagnostics.wadcfgx
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Extension set to Emulator Mode
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Reading XML configuration file
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Bypassing private config decryption
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Stopping the running plugin, if any
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] No DiagnosticsPlugin is running.
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:11 AM] Killing any DiagnosticsPlugin that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:12 AM] Killing any MonAgentHost that might remain.
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:13 AM] Diagnostics plugin stopped successfully
-DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:05:13 AM] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Emulator config file set to E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdb\csx\Debug\roles\cwtechdbWebRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] DiagnosticsStoreRootPath set to: C:\Users\training\AppData\Local\dftmp\Resources\ffac360b-c1b5-4eb2-bd2e-2b621310ceaa
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Loading config file: E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdb\csx\Debug\roles\cwtechdbWebRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Config file to read: E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdb\csx\Debug\roles\cwtechdbWebRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Checking VM Type
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Emulator config file set to E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdb\csx\Debug\roles\cwtechdbWebRole\approot\diagnostics.wadcfgx
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Extension set to Emulator Mode
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Reading XML configuration file
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Bypassing private config decryption
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Stopping the running plugin, if any
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] No DiagnosticsPlugin is running.
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Killing any DiagnosticsPlugin that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Killing any MonAgentHost that might remain.
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Diagnostics plugin stopped successfully
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:49:21 AM] Resetting DiagnosticPlugin
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:50:32 AM] DiagnosticsPlugin launched successfully with new configuration
+DiagnosticsPluginLauncher.exe Information: 0 : [2/18/2016 9:50:32 AM] DiagnosticPlugin exited with code 0

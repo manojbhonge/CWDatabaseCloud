@@ -15,14 +15,14 @@
             <div style="position: relative; over">
                 <div style="padding: 10px">
                     <!--select tool type-->
-                    <select>
-                        <option>Ball Nose</option>
-                        <option>Hog Nose</option>
-                    </select>
+                    
+                    <asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged" AutoPostBack="True"></asp:DropDownList>
+                    
+                        <asp:Button Text="Get Tool" id="gm_gettooltypes" class="btn btn-primary btn-sm" runat="server" Style="float: right" OnClick="gm_gettooltypes_Click" />
                 </div>
                 <!--select tools -->
                 <div style="border-top: 1px solid #ccc; padding: 10px; overflow-y: auto">
-                    <ul class="toolList">
+                    <%--<ul class="toolList">
                         <li>
                             <input type="checkbox" id="" />
                             <span>Tool 1</span></li>
@@ -62,12 +62,16 @@
                                 <span>Tool 1</span>
                             </label>
                         </li>
-                    </ul>
+                    </ul>--%>
+                    <asp:CheckBoxList ID="CheckBoxList1" runat="server"></asp:CheckBoxList>
+
                 </div>
                 <div style="width: 100%; padding: 10px; margin-top: 10px; clear: both; border-top: 1px solid #ccc">
                     <asp:Button Text="Add Tool" class="btn btn-primary btn-sm" runat="server" Style="float: right" />
                 </div>
             </div>
+            <%--<asp:DropDownList ID="DropDownList1" runat="server" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged">
+            </asp:DropDownList>--%>
         </div>
     </div>
 

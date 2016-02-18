@@ -36,3 +36,6 @@ E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Debug\TechDBServe
 E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Debug\Microsoft.ServiceBus.xml
 E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Debug\Microsoft.WindowsAzure.Configuration.xml
 E:\CWProject\CWDatabaseCloud\TechDBServer\TechDBServerHost\obj\Debug\TechDBServerHost.csprojResolveAssemblyReference.cache
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\bin\Debug\TechDBServerHost.exe.config
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\obj\Debug\TechDBServerHost.exe
+E:\cloudApp\CWDatabaseCloud\TechDBServer\TechDBServerHost\obj\Debug\TechDBServerHost.pdb

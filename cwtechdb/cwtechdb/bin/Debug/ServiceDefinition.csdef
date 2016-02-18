@@ -25,10 +25,10 @@
     </Endpoints>
     <Contents>
       <Content destination=".\">
-        <SourceDirectory path="E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\rcf\Debug\cwtechdbWebRoleContent\" />
+        <SourceDirectory path="E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdb\rcf\Debug\cwtechdbWebRoleContent\" />
       </Content>
       <Content destination=".\">
-        <SourceDirectory path="E:\cwTechDb\CWDatabaseCloud\cwtechdb\cwtechdb\ecf\cwtechdbWebRoleContent\" />
+        <SourceDirectory path="E:\cloudApp\CWDatabaseCloud\cwtechdb\cwtechdb\ecf\cwtechdbWebRoleContent\" />
       </Content>
     </Contents>
     <Imports>
