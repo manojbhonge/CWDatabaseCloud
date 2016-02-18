@@ -22,17 +22,18 @@ namespace TechDBServerTestClient
 
             using (var ch = cf.CreateChannel())
             {
-                List<string> outputList = ch.GetToolTypes();
+                List<ToolData> outputList = ch.GetToolTypes();
                 foreach (var item in outputList)
                 {
-                    Console.WriteLine(item);
+                    Console.WriteLine(item.ToolName);
                 }
 
                 Console.WriteLine("Get ball nose:");
-                List<string> outputList2 = ch.GetTools("Ball End Mill");
+                List<ToolData> outputList2 = ch.GetTools("Ball End Mill");
+
                 foreach (var item in outputList2)
                 {
-                    Console.WriteLine(item);
+                    Console.WriteLine(item.ToolName);
                 }
                
             }

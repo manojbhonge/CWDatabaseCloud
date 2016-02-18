@@ -48,6 +48,7 @@
     <Compile Include="ITechDBServer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TechDBServer.cs" />
+    <Compile Include="ToolData.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

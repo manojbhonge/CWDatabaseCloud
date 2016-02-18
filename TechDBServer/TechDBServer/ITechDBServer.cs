@@ -12,10 +12,10 @@ namespace TechDBServer
     public interface ITechDBServer
     {
         [OperationContract]
-        List<string> GetToolTypes();
+        List<ToolData> GetToolTypes();
 
         [OperationContract]
-        List<string> GetTools(string ToolType);
+        List<ToolData> GetTools(string ToolType);
     }
 
     public interface ITechDBServerChannel : ITechDBServer, IClientChannel { }

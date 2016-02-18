@@ -23,9 +23,9 @@ namespace TechDBServer
              connectionString = "Provider=Microsoft.Jet.OLEDB.4.0; Data Source=techdb.mdb";
         }
 
-        public List<string> GetToolTypes()
+        public List<ToolData> GetToolTypes()
         {
-            List<string> outputList = null;
+            List<ToolData> outputList = null;
             
             try
             {
@@ -38,11 +38,13 @@ namespace TechDBServer
                 cmd = new OleDbCommand(queryString,conn);               
                 reader = cmd.ExecuteReader();
 
-                outputList = new List<string>();
+                outputList = new List<ToolData>();
 
                 while (reader.Read())
-                {   
-                    outputList.Add(reader.GetValue(1).ToString());
+                {
+                    ToolData toolData = new ToolData();
+                    toolData.ToolName = reader.GetValue(1).ToString();
+                    outputList.Add(toolData);
                 }
 
                 reader.Close();
@@ -149,9 +151,9 @@ namespace TechDBServer
             return query;
         }
 
-        public List<string> GetTools(string ToolType)
+        public List<ToolData> GetTools(string ToolType)
         {
-            List<string> outputList = null;
+            List<ToolData> outputList = null;
 
             try
             {
@@ -163,11 +165,13 @@ namespace TechDBServer
                 cmd = new OleDbCommand(queryString, conn);
                 reader = cmd.ExecuteReader();
 
-                outputList = new List<string>();
+                outputList = new List<ToolData>();
 
                 while (reader.Read())
                 {
-                    outputList.Add(reader.GetValue(2).ToString());
+                    ToolData toolData = new ToolData();
+                    toolData.ToolName = reader.GetValue(2).ToString();
+                    outputList.Add(toolData);
                 }
 
                 reader.Close();
